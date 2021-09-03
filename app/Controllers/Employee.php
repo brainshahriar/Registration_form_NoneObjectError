@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 use \CodeIgniter\Controller;
-use \App\Models\EmployeeModel;
+use App\Models\EmployeeModel;
 class Employee extends BaseController
 {
     public $empModel;

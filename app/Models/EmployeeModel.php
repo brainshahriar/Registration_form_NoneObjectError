@@ -5,6 +5,7 @@ class EmployeeModel extends Model{
     protected $table='signup';
     protected $primaryKey='id';
     protected $allowedFields=['name','email','phone','course','cv'];
+ 
 
     protected $validationRules = [
         'name'=>'required|alpha_numeric_space|min_length[3]',
